@@ -56,8 +56,8 @@ public final class XMLDSigRI extends Provider {
         "XPath2, XSLT TransformServices)";
 
     public XMLDSigRI() {
-        /* We are the ApacheXMLDSig provider */
-        super("ApacheXMLDSig", 1.58, INFO);
+        /* We are the ApacheXMLDSig-1.5 provider */
+        super("ApacheXMLDSig-1.5", 1.58, INFO);
         
         final Map<Object, Object> map = new HashMap<Object, Object>();
         map.put("XMLSignatureFactory.DOM",

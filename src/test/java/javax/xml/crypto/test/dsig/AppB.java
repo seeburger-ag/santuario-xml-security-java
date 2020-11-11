@@ -30,7 +30,7 @@ public class AppB {
 
     public void dsig() throws Exception {
 
-        Provider p = Security.getProvider("ApacheXMLDSig");
+        Provider p = Security.getProvider("ApacheXMLDSig-1.5");
         TransformService.getInstance(Transform.XPATH, "DOM", p);
     }
 }
