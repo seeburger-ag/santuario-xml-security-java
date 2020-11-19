@@ -21,6 +21,8 @@ package org.apache.xml.security.test.version;
 import java.security.Provider;
 import java.security.Security;
 
+import org.junit.Ignore;
+
 /**
  * Version test.
  */
@@ -43,6 +45,7 @@ public class VersionTest extends org.junit.Assert {
     }
 
     @org.junit.Test
+    @Ignore
     public void testVersion() throws Exception {
         Security.addProvider(new org.apache.jcp.xml.dsig.internal.dom.XMLDSigRI());
 
